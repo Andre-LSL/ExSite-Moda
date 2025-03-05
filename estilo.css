@@ -5,12 +5,12 @@ html , body {
 }
     @font-face {
         font-family: 'Roboto';
-        src: url("../Fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf") format('truetype');
+        src: url("Fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf") format('truetype');
 }
 
     @font-face {
         font-family: 'Viaoda';
-        src: url(../Fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf) format('truetype');
+        src: url('Fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf') format('truetype');
     }
 
 h1, h2 {
