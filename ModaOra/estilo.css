@@ -1,0 +1,114 @@
+html , body {
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+    @font-face {
+        font-family: 'Roboto';
+        src: url("../Fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf") format('truetype');
+}
+
+    @font-face {
+        font-family: 'Viaoda';
+        src: url(../Fonts/Viaoda_Libre/ViaodaLibre-Regular.ttf) format('truetype');
+    }
+
+h1, h2 {
+    font-family: 'Viaoda';
+}
+
+p {
+    font-family: 'Roboto';
+    color: #555;
+}
+
+header {
+    margin-top: 0;
+    color: white;
+    display: flex;
+    background-color: #162028;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    margin-top: 0px;
+}
+
+.infos a {
+    padding: 0.5em;
+    margin: auto;
+    text-decoration: none;
+    color: #425564;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.imagemTopo {
+    width: 100%;
+}
+
+.aprInicial {
+    margin-top: 2em;
+    display: inline-block;
+    text-align: center;
+}
+
+.aprInicial h1 {
+    font-size: 2em;
+}
+
+.aprInicial p {
+    margin: auto;
+    line-height: 2;
+    width: 80%;
+    text-align: center;
+
+}
+
+.Itens {
+    margin: 2em auto 2em;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+}
+
+.Itens h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: .5em;
+}
+
+.Itens p {
+    text-align: center;
+    margin-top: .5em;
+}
+
+.endText {
+    background-image: url(../imagens/bg_detalhe.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.endText h1 {
+    color: white;
+    font-size: 5em;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.endText p {
+    color: white;
+    font-size: 1.8em;
+    width: 50%;
+    padding: 1em;
+    margin: 0 auto 2em 1em;
+    
+}
+
+footer {
+    background-color: #0b171f;
+    padding: 2em;
+    text-align: center;
+    color: #6f8597;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
